@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    background-color: #FFEDF2 ;
+    color: #6F696E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.container{
+    height: 50vh;
+    display: flex;
+  background-color: black;
+overflow: hidden;
+  flex-flow: nowrap;
+    text-align: center;
+  border: 2px solid white;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20%;
+  
+  box-shadow: 0px 14px 28px rgba(0,0,0,0.25),0px 10px 10px rgba(0,0,0,0.22) ;
+  border-radius: 10px;
+padding: 0%;
+}
+.form1{
+    position: absolute;
+    left: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+   background-color: white;
+    height: inherit;
+    padding: 0px 20px;
+    border-right: 1px solid white;
+}
+.input-container{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.form1 h1{
+
+position: absolute;
+top: 5%;
+font-family: sans-serif;
+}
+.form1 .signup{
+
+top: 20%;
+position: absolute;
+font-size: 20px;
+font-weight: 400;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.input-container input{
+
+    width: 170px;
+    margin-top: 30px ;
+   text-decoration: none;
+   outline: none;
+  border: none;
+   padding: 10px;
+   background-color:#A9A5A9 ;
+  
+
+}
+.form1 button{
+margin-top: 30px ;
+outline: none;
+width: 110px;
+font-size: 15px;
+letter-spacing: 0.1rem;
+color: white;
+background-color: #FB1857 ;
+border: none;
+padding: 13px;
+border-radius: 10px;
+background-image: linear-gradient(to right ,#EC388D ,#FB1857);
+
+}
+.form2{
+    position: absolute;
+    left: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+   background-color: #FB1857;
+   background-image: linear-gradient(to right ,#EC388D ,#FB1857);
+    height: inherit;
+    padding: 0px 20px;
+    border-right: 1px solid white;
+
+}
+.form2 h1{
+    
+    position: relative;
+    top: -15%;
+    font-family: sans-serif;
+    color: white;
+}
+.form2 p{
+    position: relative;
+    top: -10%;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+.signup-button{
+    margin-top: 10px ;
+outline: none;
+width: 120px;
+font-size: 15px;
+letter-spacing: 0.1rem;
+color: white;
+background-color: #FB1857 ;
+border: 1px solid white;
+background-image: linear-gradient(to right ,#EC388D ,#FB1857);
+padding: 10px;
+border-radius: 10px;
+}
+
+.form1 button:active{
+    transform: scale(0.9);
+}
+.signup-button:active
+{
+ 
+transform: scalex(1.2);
+  
+
+}
+.form3{
+    position: relative;
+    left: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+   background-color: #FB1857;
+   background-image: linear-gradient(to right ,#EC388D ,#FB1857);
+    height: inherit;
+    padding: 0px 20px;
+    border-right: 1px solid white;
+   
+    
+}
+
+.form3 h1{
+    
+    position: relative;
+    top: -15%;
+    font-family: sans-serif;
+    color: white;
+}
+.form3 p{
+    position: relative;
+    top: -10%;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+.signin-button{
+    margin-top: 10px ;
+outline: none;
+width: 120px;
+font-size: 15px;
+letter-spacing: 0.1rem;
+color: white;
+background-color: #FB1857 ;
+border: 1px solid white;
+
+padding: 10px;
+border-radius: 10px;
+background-image: linear-gradient(to right ,#EC388D ,#FB1857);
+}
+.signin-button:active{
+    transform: scaleX(1.2);
+}
+.form4{
+    position: relative;
+    left: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+   background-color: white;
+    height: inherit;
+    padding: 0px 20px;
+    border-right: 1px solid white;
+
+}
+.form4 h1{
+
+    position: relative;
+    top: -10%;
+    font-family: sans-serif;
+    }
+    .form4 .sign-in{
+    
+    top: -10%;
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .form4 button{
+        margin-top: 10px ;
+    outline: none;
+    width: 120px;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    color: white;
+    background-color: #FB1857 ;
+border: none;
+background-image: linear-gradient(to right ,#EC388D ,#FB1857);
+    
+    padding: 10px;
+    border-radius: 10px;
+    }
+    
+    .form4 button:active{
+        transform: scale(0.9);
+    }
+    .form4 .input-container input{
+        position: relative;
+        width: 170px;
+        margin-top: 20px ;
+        top: -25px;
+       text-decoration: none;
+       outline: none;
+      border: none;
+       padding: 10px;
+       background-color:#A9A5A9 ;
+      
+    
+    }

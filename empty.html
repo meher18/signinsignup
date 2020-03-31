@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form1" id="form1">
+             <h1>hello there !</h1>
+            <span class="signup">sign in</span>
+            <div class="input-container">
+                <input type="text" class="input1" placeholder="name">
+            <input type="password" class="input2" placeholder="enter password"> 
+            </div>
+              <button>sign in</button>
+        </div>
+        <div class="form2" id="form2">
+            <h1>hello my friend</h1>
+            <p>not able to sign up then you can sign up here</p>
+            <button class="signup-button" onclick="signupcontainer()">sign up</button>
+        </div>
+        <div class="form3" id="form3">
+            <h1>hello my friend</h1>
+            <p>already a member then you can sign in</p>
+            <button class="signin-button" onclick="signincontainer()">sign in</button>
+        </div>
+        <div class="form4" id="form4">
+            <h1>hello there !</h1>
+           <span class="sign-in">sign up</span>
+           <div class="input-container">
+
+            <input type="text" class="input1" placeholder="name ">
+            <input type="email" class="input2" placeholder="email"> 
+            <input type="password" class="input2" placeholder="password"> 
+
+
+           </div>
+             <button>sign up</button>
+       </div>
+
+    </div>
+</body>
+<script>
+function signupcontainer()
+{
+document.getElementById("form3").style.transition=" all 500ms ease-in-out";
+document.getElementById("form3").style.position="absolute";
+document.getElementById("form3").style.left=" 0%";
+
+document.getElementById("form4").style.transition=" all 500ms ease-in-out";
+document.getElementById("form4").style.position="absolute";
+document.getElementById("form4").style.left=" 50%";
+
+
+document.getElementById("form1").style.transition=" all 500ms ease-in-out";
+document.getElementById("form1").style.position="relative";
+document.getElementById("form1").style.left="-100%";
+
+document.getElementById("form2").style.transition=" all 500ms ease-in-out";
+document.getElementById("form2").style.position="relative";
+document.getElementById("form2").style.left="-100%";
+
+
+}
+function signincontainer()
+{
+    
+document.getElementById("form1").style.transition=" all 500ms ease-in-out";
+document.getElementById("form1").style.position="absolute";
+document.getElementById("form1").style.left="0";
+
+document.getElementById("form2").style.transition=" all 500ms ease-in-out";
+document.getElementById("form2").style.position="absolute";
+document.getElementById("form2").style.left="50%";
+
+
+
+
+    document.getElementById("form3").style.transition=" all 500ms ease-in-out";
+document.getElementById("form3").style.position="relative";
+document.getElementById("form3").style.left="100%";
+
+document.getElementById("form4").style.transition=" all 500ms ease-in-out";
+document.getElementById("form4").style.position="relative";
+document.getElementById("form4").style.left=" 100%";
+
+
+
+
+
+
+
+}
+
+
+
+
+
+</script>
+</html>
